@@ -1,0 +1,29 @@
+body {margin: 0;}
+.recipe-item {width: 32%;
+    height: 200px;
+    background-image: url("../images/chocolate.jpg");
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;}
+.postre {background-image: url("../images/galletas.jpg");}
+.exotico {background-image: url("../images/macaron.jpg.jpg");}
+.recipe-buttons {display: flex;
+justify-content: space-between}
+.container {margin: 0 auto;
+    overflow: hidden;
+    width: 80%;}
+.recipe-a {text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 50%;
+    height: 15%;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+}
+.recipe-a:hover {background-color: red;
+    color: white;}
+
