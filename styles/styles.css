@@ -27,3 +27,29 @@ justify-content: space-between}
 .recipe-a:hover {background-color: red;
     color: white;}
 
+.aboutme {margin-top: 2%;}
+.aboutme-box {width: 30%;
+overflow: hidden;
+float: right;
+display: flex;
+flex-direction: column;
+align-items: center;}
+.recipe-video {float: left;}
+.aboutme-img {width: 200px;
+height: 200px;
+border-radius: 200px;
+margin: 15px 0;
+}
+.titulo-p,.aboutme-a {font-size: 12px;
+background-color: pink;
+width: 100%;
+text-align: center;
+padding: 8px 0;
+margin: 0;}
+.aboutme-a {text-decoration: none;
+color: black;}
+.aboutme-p {color: gray;
+text-align: center;
+margin: 15px 0;}
+.name {margin: 0;
+font-size: 28px;}
