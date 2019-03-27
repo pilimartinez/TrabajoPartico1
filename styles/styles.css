@@ -1,4 +1,50 @@
 body {margin: 0;}
+
+
+.tituloLogo{
+    font-family: "IBM Plex Mono", monospace;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+   .tituloLogo a{
+   text-decoration: none;
+   color:black;
+  }
+
+  .carrusel{
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 5%;
+  }
+
+  li{
+      list-style: none;
+      margin: 0 2%;
+  }
+ 
+  li a{
+    text-decoration:none;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    color:black;
+  }
+
+ .desplegable{
+     padding:0;
+ }
+
+ .list{
+     display: flex;
+     justify-content: center;
+     padding:0;
+ }
+
+
+
+
+
 .recipe-item {width: 32%;
     height: 200px;
     background-image: url("../images/chocolate.jpg");
