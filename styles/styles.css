@@ -1,25 +1,30 @@
-body {margin: 0;}
+body {margin: 0;
+  padding:0;
+}
 
 
 .tituloLogo{
     font-family: "IBM Plex Mono", monospace;
     text-transform: uppercase;
     text-align: center;
-    font-size: 40px;
+    font-size: 80px;
     font-weight: bold; }
 
    .tituloLogo a{
    text-decoration: none;
    color:black;}
 
-/* Navbar container */
+
 .navbar {
     overflow: hidden;
     font-family: "IBM Plex Mono", monospace;
     text-align:center;
     margin-bottom: 20px;
+    background-color: rgba(230, 223, 223, 0.89);
+    display: flex;
+    justify-content: center;
   }
-  /* Links inside the navbar */
+ 
   .navbar a {
     float: left;
     font-size: 16px;
@@ -29,13 +34,13 @@ body {margin: 0;}
     text-decoration: none;
   }
   
-  /* The dropdown container */
+  
   .dropdown {
     float: left;
     overflow: hidden;
   }
   
-  /* Dropdown button */
+ 
   .dropdown .dropbtn {
     font-size: 16px; 
     border: none;
@@ -43,16 +48,15 @@ body {margin: 0;}
     color: black;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: "IBM Plex Mono", monospace; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    font-family: "IBM Plex Mono", monospace; 
   }
   
-  /* Add a red background color to navbar links on hover */
+  
   .navbar a:hover, .dropdown:hover .dropbtn {
     color:grey;
   }
   
-  /* Dropdown content (hidden by default) */
+  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -60,7 +64,7 @@ body {margin: 0;}
     min-width: 160px;
   }
   
-  /* Links inside the dropdown */
+  
   .dropdown-content a {
     float: none;
     color: black;
@@ -70,7 +74,7 @@ body {margin: 0;}
     text-align: left;
   }
   
-  /* Show the dropdown menu on hover */
+  
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -79,7 +83,8 @@ body {margin: 0;}
 
   .carrusel{
       display:flex;
-      justify-content: space-between;
+      flex-direction: row;
+     justify-content: space-between;
       margin-bottom: 3%; }
 
   li{list-style: none;
