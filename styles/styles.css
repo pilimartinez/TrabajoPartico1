@@ -197,7 +197,7 @@ justify-content: space-between}
     line-height: 30px;
     border-radius: 30px;
 }
-.recipe-a:hover {background-color: rgb(238, 184, 238);
+.recipe-a:hover {background-color: pink;
     color: white;}
 
 .aboutme {margin-top: 2%;
@@ -216,13 +216,14 @@ overflow: hidden;}
 font-size: 13px;
 margin-top: 8px;}
 
-.aboutme-img {width: 200px;
-height:200px;
-border-radius: 200px;
+.aboutme-img {
+  width: 200px;
+  height:200px;
+  border-radius:100px;
 margin: 15px 0;
 }
 .titulo-p,.aboutme-a {font-size: 12px;
-background-color: rgb(238, 184, 238);
+background-color: pink;
 width: 100%;
 text-align: center;
 padding: 8px 0;
@@ -238,79 +239,114 @@ font-size: 13px;
 font-size: 20px;}
 
 
-
-.totalRecipeFirst, .totalRecipe{
+.totalRecipe img{
   margin-top: 25px;
+ }
+ 
+ .totalRecipe{
+  margin-top: 25px;
+  margin-bottom: 25px;
   border-top: solid 1px gray;
-  position:relative;
-}
+  margin-right: 355px;
+  display: inline-block;
+ }
 
-
-.columnRecipe{
-display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+ .columnRecipe{
+ margin-left: 310px;
+ }
+ 
+ .recipeTop{
+    height: 14px;
+  }
+ 
+ .recipeTop p{
+  display: block;
+  float: left;
+  font-size: 16px;
+  line-height: 15px;
+  margin:0 7px 0 0;
+ }
+ 
+ .recipeTop .recipeReactions{
+  display: block;
+  overflow: hidden;
+  padding:0 0 0 15px;
+  height: 15px;
+ }
+ 
+ .recipeTop .recipeReactions li{
+  display: block;
+  line-height: 15px;
   float:right;
-}
-
-.columnRecipes img{
-  margin-top: 25px;
-}
-
-
-
-.recipeDate p{
-    display: inline-block;
-  font-size: 15px;
-  padding-right:5px;
+  margin-left: 10px;
   }
-
-  .recipeDate{
-    float:left;
-  }
-.recipeDate .name{
+ 
+ .recipeDate .name{
     border-right: 1px solid black;
-}
+    padding-right: 7px;
+ }
 
-.recipeReactions li{
-display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  float:right;
-}
-
+ 
+ 
   .recipeReactions a{
-    margin: 0 10px 0 0;
+    margin: 0 2px 0 0;
+ 
   }
-
+ 
   .columnRecipe h3{
-      font-size: 30px;
+    margin-top: 15px;
+    margin-bottom:7px;
+      font-size: 28px;
       color:black;
       font-family:"IBM Plex Mono", monospace;
   }
 
+  
+ 
   .recipeDate p, .recipeReactions li{
     font-size: 14px;
     color:black;
     font-family:"IBM Plex Mono", monospace;
   }
+ 
+  .columnRecipe p{
+  
+  font-family:"IBM Plex Mono", monospace;
+  }
 
+  .recipeDescription{
+    font-size: 13px;
+    
+  }
+ 
   .verMas {
     font-size: 15px;
     background-color: rgb(202, 199, 199);
     width: 30%;
     border-radius: 5px;
     text-align: center;
-    padding: 8px 0;
-    margin-top: 40px;
+    padding: 8px 8px;
     text-decoration: none;
     color: black;
+   
     font-family:"IBM Plex Mono", monospace;
-}
-
-.verMas:hover{
+ }
+ 
+ .verMas:hover{
     background-color: rgb(233, 232, 232);
-}
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 .socialmedia {margin: 0 0 5% 0;
 display: flex;
