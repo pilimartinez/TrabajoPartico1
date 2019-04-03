@@ -146,6 +146,12 @@ body{
   overflow: hidden;
   width: 80%;
 }
+
+.container2{
+  margin: 0 auto;
+  overflow: hidden;
+  width: 40%;
+}
 .recipe-a{
   text-decoration: none;
   color: black;
@@ -290,9 +296,7 @@ body{
 .verMas:hover{
   background-color: rgb(233, 232, 232);
  }
-.socialmedia{
-  margin: 0 0 5% 0;
-  display: flex;
+.socialmedia{display: flex;
   justify-content: space-between;
   padding: 5% 0 2% 0;
   border-bottom: 1px solid gray;
@@ -308,3 +312,75 @@ body{
   text-decoration:none;
   list-style:none;
 }
+
+.imagenreceta {width: 100%;
+height: 250px;}
+.recipeheader {width: 100%;
+height: 100%;}
+.position-ul{list-style: none;
+display: flex;
+margin-top: 2%;}
+li .position-li{text-decoration: none;
+color: black;
+font-weight: bold;
+margin-right: 10%;}
+.position-dif{color: gray;}
+.recipe-media {list-style: none;
+padding: 0;}
+.socialbtn-r {color: black;
+text-decoration: none;
+background-color: peachpuff;
+border: 1px solid black;
+width: 65%;
+line-height: 25px;
+text-align: center;
+border-radius: 25px; 
+margin-bottom: 50%;}
+.articleimg{width: 85%;}
+.granolarecipe{width: 100%;
+border-radius: 30px;}
+.fullrecipe {display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+margin: 0;}
+.fulltxt{display: flex;
+justify-content: center;
+margin: 5% 0 0 0;}
+.main-recipe-social{
+  width: 3%;
+  margin: 0;}
+.recipe-time-data {display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: gray;
+}
+.recipe-time-data p{
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 18px 0;
+  }
+.recipe-time-data li{
+  display: block;
+  float:right;
+  margin-left: 10px;
+  line-height:14px;
+  }
+  .recipeinfo h3 {margin: 0;
+  font-size: 25px;}
+  .reciperesume{color: gray;
+  font-size: 15px;}
+  blockquote{display: flex;
+    flex-direction: column;
+    border-left: 1px solid peachpuff;
+    margin: 8% 0 0 0;
+  padding-left: 5%;
+font-size: 15px;}
+  cite{color: rgb(226, 181, 141);
+  margin-top: 5%;}
+  .ingredients{margin: 5% 0 0 0;}
+  .ingredients li{margin-bottom: 2%;
+    color: gray;
+  font-size: 15px;}
