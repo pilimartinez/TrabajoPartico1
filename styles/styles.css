@@ -314,12 +314,13 @@ body{
 }
 
 .imagenreceta {width: 100%;
-height: 250px;}
+height: 100%;}
 .recipeheader {width: 100%;
 height: 100%;}
 .position-ul{list-style: none;
 display: flex;
-margin-top: 2%;}
+margin-top: 2%;
+}
 li .position-li{text-decoration: none;
 color: black;
 font-weight: bold;
@@ -338,7 +339,8 @@ border-radius: 25px;
 margin-bottom: 50%;}
 .articleimg{width: 85%;}
 .granolarecipe{width: 100%;
-border-radius: 30px;}
+border-radius: 30px;
+}
 .fullrecipe {display: flex;
   flex-direction: column;
   align-items: center;
@@ -367,6 +369,19 @@ margin: 5% 0 0 0;}
   float:right;
   margin-left: 10px;
   line-height:14px;
+  }
+  .recipeDate .dateRecipe{
+    border-left: 1px solid gray;
+    padding-left: 4px;
+  }
+  .reactions a{
+    margin: 0 3px 0 0;
+    text-decoration: none;
+    color:gray;
+    font-size: 11px;
+  }
+  .reactions li{
+    font-size: 13px;
   }
   .recipeinfo h3 {margin: 0;
   font-size: 25px;}
