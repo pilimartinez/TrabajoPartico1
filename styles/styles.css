@@ -331,10 +331,13 @@ height: 100%;}
 display: flex;
 margin-top: 2%;
 }
+.position-ul li{
+  margin-right: 5px;
+}
 li .position-li{text-decoration: none;
 color: black;
 font-weight: bold;
-margin-right: 10%;}
+margin-right: 5px;}
 .position-dif{color: gray;}
 .recipe-media {list-style: none;
 padding: 0;}
