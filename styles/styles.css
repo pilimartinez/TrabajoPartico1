@@ -1,94 +1,61 @@
-body{
-  margin: 0;
+body{ margin: 0;
   padding:0;
   font-family: "IBM Plex Mono", monospace;
 }
-.tituloLogo{
-  text-transform: uppercase;
-  text-align: center;
+/**HEADER Y CARRUSEL**/
+.tituloLogo{text-align: center;
   font-size: 60px;
-  font-weight: bold; 
+  font-weight: bold;
 }
-.tituloLogo a{
-  text-decoration: none;
+.tituloLogo a{text-decoration: none;
   color:black;
 }
-
-.menu{
-background-color: rgba(207, 207, 207, 0.89);
+.menu{background-color: rgba(207, 207, 207, 0.89);
 margin-bottom: 20px;
 }
-
-
-.menu li{
-  list-style: none;
+.menu li{list-style: none;
   margin: 0 2%;
   padding: 14px 30px;
    text-decoration: none;
-}
-
-li a{
-text-decoration:none;
+  }
+li a{text-decoration:none;
 font-family: "IBM Plex Mono", monospace;
 font-size: 20px;
 color:black;
 }
-
-.platos {
-  position:relative;
+.platos {position:relative;
 }
-
-.desplegable{
- padding:0;
+.desplegable{padding:0;
  display:none;
  position:absolute;
 top:51px;
  left:0;
 }
-
-.desplegable .desplegablePlatos{
-  
-  margin-left:0;
+.desplegable .desplegablePlatos{margin-left:0;
 }
-
-
-nav li:hover > ul{
-  display:block;
+nav li:hover > ul{display:block;
   z-index: 2;
   background-color: rgba(207, 207, 207, 0.89);
-
 }
-
-.menu a:hover{
-  color: gray;
+.menu a:hover{color: gray;
 }
-
-.list{
- display: flex;
+.list{display: flex;
  justify-content: center;
  padding:0;
 }
-
-
-
-
-.carrusel{
-  display:flex;
+.carrusel{display:flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1.5%; 
   z-index: 1;
-  }
-.carruselImage{
-  position: relative;
+}
+.carruselImage{position: relative;
   width: 50%;
-  }
-.carruselImage img{
-  display: block;
+}
+.carruselImage img{display: block;
   width: 100%;
-  }
-.textoSobre{
-  position: absolute;
+}
+.textoSobre{position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -97,17 +64,15 @@ nav li:hover > ul{
   width: 100%;
   height: 0;
   transition: .5s ease;
-  }
-.carruselImage:hover .textoSobre{
-  height: 25%;
-  }
-.textoSobre .texto{
-  display: block;
+}
+.carruselImage:hover .textoSobre{height: 25%;
+}
+.textoSobre .texto{display: block;
   overflow: hidden;
   padding-left:4px;
   padding-top:8px;
   margin-bottom:8px;
-  }
+}
 .textoSobre .texto li{
   display: block;
   font-size: 11px;
@@ -131,6 +96,7 @@ nav li:hover > ul{
 .texto .textoComentarios{
   border-left: solid 1px black;
   }
+  /**BOTONES CATEGORIAS**/
 .recipe-item{
   width: 32%;
   height: 200px;
@@ -156,7 +122,6 @@ nav li:hover > ul{
   overflow: hidden;
   width: 80%;
 }
-
 .container2{
   margin: 0 auto;
   overflow: hidden;
@@ -176,6 +141,7 @@ nav li:hover > ul{
   background-color: pink;
   color: white;
 }
+/**SOBRE MI Y VIDEO**/
 .aboutme{
   margin-top: 1.5%;
   font-family: "IBM Plex Mono", monospace;
@@ -225,14 +191,14 @@ nav li:hover > ul{
 .aboutme .name{
   margin: 0;
   font-size: 20px;}
-
+/**RECETAS**/
 .totalRecipe{
-  border-top: solid 1px gray;}
-
+  border-top: solid 1px gray;
+}
 .recipeDate .date{
-  border-left: 1px solid black;}
-
-.verMas {
+  border-left: 1px solid black;
+}
+.verMas{
   font-size: 12px;
   background-color: rgb(202, 199, 199);
   width: 30%;
@@ -245,24 +211,8 @@ nav li:hover > ul{
 .verMas:hover{
   background-color: rgb(233, 232, 232);
  }
-.socialmedia{display: flex;
-  justify-content: space-between;
-  padding: 5% 0 2% 0;
-  border-bottom: 1px solid gray;
-}
-.socialmedia li a{
-  font-size: 12px;
-  color: gray;
-  text-decoration:none;
-  list-style:none;
-}
-.socialmedia li{
-  font-size: 12px;
-  text-decoration:none;
-  list-style:none;
-}
-
-.imagenreceta {width: 100%;
+.imagenreceta{
+width: 100%;
 height: 100%;}
 .recipeheader {width: 100%;
 }
@@ -271,8 +221,7 @@ display: flex;
 margin-top: 2%;
 }
 .position-ul li{
-  margin-right: 5px;
-}
+  margin-right: 5px;}
 li .position-li{text-decoration: none;
 color: black;
 font-weight: bold;
@@ -280,8 +229,10 @@ margin-right: 5px;
 }
 .position-dif{color: gray;}
 .recipe-media {list-style: none;
-padding: 0;}
-.socialbtn-r {color: black;
+padding: 0;
+}
+.socialbtn-r {
+color: black;
 text-decoration: none;
 background-color: peachpuff;
 border: 1px solid black;
@@ -289,8 +240,11 @@ width: 65%;
 line-height: 25px;
 text-align: center;
 border-radius: 25px; 
-margin-bottom: 50%;}
-.articleimg{width: 85%;}
+margin-bottom: 50%;
+}
+.articleimg{
+  width: 85%;
+}
 .granolarecipe{width: 100%;
 border-radius: 30px;
 }
@@ -329,46 +283,114 @@ margin: 5% 0 0 0;}
   .recipeDate .name{
     margin-right: 5px;
   }
- 
-  .reactions a{
+ .reactions a{
     margin: 0 3px 0 0;
     text-decoration: none;
     color:gray;
-    font-size: 11px;}
-  .reactions li{
+    font-size: 11px;
+  }
+.reactions li{
     font-size: 13px;}
-  .recipeinfo h3 {margin: 0;
-  font-size: 25px;}
-  .reciperesume{color: gray;
-  font-size: 15px;}
-  blockquote{display: flex;
+.recipeinfo h3 {
+    margin: 0;
+  font-size: 25px;
+}
+.reciperesume{
+    color: gray;
+  font-size: 15px;
+}
+blockquote{
+display: flex;
     flex-direction: column;
     border-left: 1px solid peachpuff;
     margin: 8% 0 0 0;
   padding-left: 5%;
-font-size: 15px;}
-  cite{color: rgb(226, 181, 141);
-  margin-top: 5%;}
-  .ingredients{margin: 5% 0 0 0;}
-  .ingredients li{margin-bottom: 2%;
+font-size: 15px;
+}
+cite{
+color: rgb(226, 181, 141);
+margin-top: 5%;
+}
+.ingredients{margin: 5% 0 0 0;}
+.ingredients li{margin-bottom: 2%;
     color: gray;
-  font-size: 15px;}
-.completerecipe {display: flex;
+  font-size: 15px;
+}
+.completerecipe {
+display: flex;
 width: 66%;
 padding: 2% 0 2% 0;
 border-top: 1px solid gray;
-border-bottom: 1px solid gray;}
+border-bottom: 1px solid gray;
+}
 .main-fullrecipe-img{width: 50%;}
 .main-fullrecipe-img img {width: 100%;
-border-radius: 30px;}
+border-radius: 30px;
+}
 .recipeDate {display: flex;
-font-size: 14px;}
+font-size: 14px;
+}
 .recipeinfo{display: flex;
 flex-direction: column;
-font-size: 12px;}
-.reactions li {list-style: none;}
-.reactions{display: flex;}
+font-size: 12px;
+}
+.reactions li {list-style: none;
+}
+.reactions{display: flex;
+}
 .recipe-full-info {display: flex;
 flex-direction: column;
 margin-left: 5%;
-width: 50%;}
+width: 50%;
+}
+/**FOOTER**/
+.socialmedia{display: flex;
+  justify-content: space-between;
+  padding: 5% 0 2% 0;
+  border-bottom: 1px solid gray;
+}
+.socialmedia li a,.socialmedia li span{
+  font-size: 12px;
+  color: gray;
+  text-decoration:none;
+  list-style:none;
+}
+.socialmedia li{
+  font-size: 12px;
+  text-decoration:none;
+  list-style:none;
+}
+/**menos420 550 800enAdelante**/
+@media (max-width: 800px){
+.carrusel {flex-wrap: wrap;}
+.carruselImage.pancakes,.carruselImage.nutcake,.textoSobre{display: none;}
+.completerecipe, .videodiv {width: 100%}
+.tituloLogo {font-size: 40px;}
+.list li a {font-size: 15px;}
+.aboutme-box {width: 100%;}
+.titulo-p,.aboutme-p,.aboutme-a{width: 50%;}
+.completerecipe {border: ;}
+}
+
+@media (max-width: 550px){
+.recipe-buttons{display: block;}
+.recipe-item{width: 100%;
+  margin-bottom: 2%;}
+  .socialmedia li a{display: none;}
+  .socialmedia li span {font-size: 25px;}
+}
+
+@media (max-width: 420px)
+{.tituloLogo {font-size: 35px;}
+.granola,.chococookie,.main-fullrecipe-img{display: none;}
+.oreo{width: 100%;}
+.videodiv{display: none;}
+.titulo-p,.aboutme-p,.aboutme-a{width: 100%;}
+.completerecipe {justify-content: center;
+border: none;
+margin-top: 5%;}
+.recipeinfo {font-size: 16px;}
+.verMas{background-color: pink;
+  width: 50%;}
+  .recipe-full-info{width: 80%;}
+}
