@@ -223,12 +223,12 @@ height: 100%;}
 .recipeheader {width: 100%;
 }
 .position-ul{list-style: none;
-display: flex;
 margin-top: 2%;
 font-weight: bold;
 }
 .position-ul li{
   margin-right: 5px;
+  float:left;
 }
 li .position-li{text-decoration: none;
 color: black;
@@ -383,7 +383,7 @@ width: 50%;
 .completerecipe {border: ;}
 .platos .desplegable{
   position: absolute;
-  top:64px;
+  top:46px;
 }
 .fulltxt{
   display:block;
@@ -599,10 +599,11 @@ margin:0;
     font-size: 13px;
   }
 
-.position-ul li{
-  float:left;
-}
 
+
+.position-dif{
+  clear: both;
+}
 
   div.fullrecipe.container2{
     width:80%;
