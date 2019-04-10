@@ -360,7 +360,8 @@ width: 50%;
   padding: 5% 0 2% 0;
   border-bottom: 1px solid gray;
 }
-.socialmedia li a,.socialmedia li span{
+
+.socialmedia li a span{
   font-size: 12px;
   color: gray;
   text-decoration:none;
@@ -437,7 +438,6 @@ width: 50%;
 .recipe-buttons{display: block;}
 .recipe-item{width: 100%;
   margin-bottom: 2%;}
-  .socialmedia li a{display: none;}
   .socialmedia li span {font-size: 25px;}
   .platos .desplegable{
     position: absolute;
@@ -520,6 +520,10 @@ width: 50%;
      .fullrecipe{
       display:inline;
     }
+     
+.socialname {
+  display: none;
+}
 
 }
  @media (max-width: 420px)
@@ -633,7 +637,9 @@ margin:0;
  .fullrecipe{
   display:inline;
 }
- .socialmedia li a{display: none;}
-.socialmedia li span {font-size: 10px;}
+ 
+.socialname {
+  display: none;
+}
 
 }
