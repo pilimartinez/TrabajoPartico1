@@ -1,67 +1,83 @@
-body{ margin: 0;
+body{
+  margin: 0;
   padding:0;
   font-family: "IBM Plex Mono", monospace;
 }
 /**HEADER Y CARRUSEL**/
-.tituloLogo{text-align: center;
+.tituloLogo{
+  text-align: center;
   font-size: 60px;
   font-weight: bold;
 }
-.tituloLogo a{text-decoration: none;
+.tituloLogo a{
+  text-decoration: none;
   color:black;
 }
-.menu{background-color: rgba(207, 207, 207, 0.89);
-margin-bottom: 20px;
+.menu{
+  background-color: rgba(207, 207, 207, 0.89);
+  margin-bottom: 20px;
 }
 .menu .menuResponsive{
   display: none;
 }
 .menuResponsive p{
-font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
-.menu li{list-style: none;
+.menu li{
+  list-style: none;
   margin: 0 2%;
   padding: 14px 30px;
-   text-decoration: none;
+  text-decoration: none;
 }
-li a{text-decoration:none;
-font-family: "IBM Plex Mono", monospace;
-font-size: 20px;
-color:black;
+li a{
+  text-decoration:none;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 20px;
+  color:black;
 }
-.platos {position:relative;
+.platos {
+  position:relative;
 }
-.desplegable{padding:0;
- display:none;
- position:absolute;
-top:51px;
- left:0;
+.desplegable{
+  padding:0;
+  display:none;
+  position:absolute;
+  top:51px;
+  left:0;
 }
-.desplegable .desplegablePlatos{margin-left:0;
+.desplegable .desplegablePlatos{
+  margin-left:0;
 }
-nav li:hover > ul{display:block;
+nav li:hover > ul{
+  display:block;
   z-index: 2;
   background-color: rgba(207, 207, 207, 0.89);
 }
-.menu a:hover{color: gray;
+.menu a:hover{
+  color: gray;
 }
-.list{display: flex;
- justify-content: center;
- padding:0;
+.list{
+  display: flex;
+  justify-content: center;
+  padding:0;
 }
-.carrusel{display:flex;
+.carrusel{
+  display:flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1.5%;
   z-index: 1;
 }
-.carruselImage{position: relative;
+.carruselImage{
+  position: relative;
   width: 50%;
 }
-.carruselImage img{display: block;
+.carruselImage img{
+  display: block;
   width: 100%;
 }
-.textoSobre{position: absolute;
+.textoSobre{
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -71,9 +87,11 @@ nav li:hover > ul{display:block;
   height: 0;
   transition: .5s ease;
 }
-.carruselImage:hover .textoSobre{height: 25%;
+.carruselImage:hover .textoSobre{
+  height: 25%;
 }
-.textoSobre .texto{display: block;
+.textoSobre .texto{
+  display: block;
   overflow: hidden;
   padding-left:4px;
   padding-top:8px;
@@ -218,58 +236,70 @@ nav li:hover > ul{display:block;
   background-color: rgb(233, 232, 232);
  }
 .imagenreceta{
-width: 100%;
-height: 100%;}
-.recipeheader {width: 100%;
+  width: 100%;
+  height: 100%;}
+.recipeheader {
+  width: 100%;
 }
-.position-ul{list-style: none;
-margin-top: 2%;
-font-weight: bold;
+.position-ul{
+  list-style: none;
+  margin-top: 2%;
+  font-weight: bold;
 }
 .position-ul li{
   margin-right: 5px;
   float:left;
 }
-li .position-li{text-decoration: none;
-color: black;
-font-weight: bold;
-margin-right: 5px;
-font-size:16px;
-display:inline;
+li .position-li{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size:16px;
+  display:inline;
 }
-.position-dif{color: gray;}
-.recipe-media {list-style: none;
-padding: 0;
+.position-dif{
+  color: gray;}
+.recipe-media {
+  list-style: none;
+  padding: 0;
 }
 .socialbtn-r {
-color: black;
-text-decoration: none;
-background-color: peachpuff;
-border: 1px solid black;
-width: 65%;
-line-height: 25px;
-text-align: center;
-border-radius: 25px;
-margin-bottom: 50%;
+  color: black;
+  text-decoration: none;
+  background-color: peachpuff;
+  border: 1px solid black;
+  width: 65%;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 25px;
+  margin-bottom: 50%;
 }
 .articleimg{
   width: 85%;
 }
-.granolarecipe{width: 100%;
-border-radius: 30px;
+.granolarecipe{
+  width: 100%;
+  border-radius: 30px;
 }
-.fullrecipe {display: flex;
+.fullrecipe {
+  display: flex;
   flex-direction: column;
   align-items: center;
   float: right;
-margin: 0;}
-.fulltxt{display: flex;
-justify-content: center;
-margin: 5% 0 0 0;}
+  margin: 0;
+}
+.fulltxt{
+  display: flex;
+  justify-content: center;
+  margin: 5% 0 0 0;
+}
 .main-recipe-social{
   width: 3%;
-  margin: 0;}
-.recipe-time-data {display: flex;
+  margin: 0;
+}
+.recipe-time-data {
+  display: flex;
   justify-content: space-between;
   width: 100%;
   color: gray;
@@ -281,86 +311,96 @@ margin: 5% 0 0 0;}
   line-height: 14px;
   margin: 18px 0;
   padding-left:5px;
-  }
+}
 .recipe-time-data li{
   display: block;
   float:right;
   margin-left: 10px;
   line-height:14px;
-  }
-  .recipeDate .dateRecipe{
-    border-left: 1px solid gray;
-  }
-  .recipeDate .name{
-    margin-right: 5px;
-  }
- .reactions a{
-    margin: 0 3px 0 0;
-    text-decoration: none;
-    color:gray;
-    font-size: 11px;
-  }
+}
+.recipeDate .dateRecipe{
+  border-left: 1px solid gray;
+}
+.recipeDate .name{
+  margin-right: 5px;
+}
+.reactions a{
+  margin: 0 3px 0 0;
+  text-decoration: none;
+  color:gray;
+  font-size: 11px;
+}
 .reactions li{
-    font-size: 13px;}
+  font-size: 13px;}
 .recipeinfo h3 {
-    margin: 0;
+  margin: 0;
   font-size: 25px;
 }
 .reciperesume{
-    color: gray;
+  color: gray;
   font-size: 15px;
 }
 blockquote{
-display: flex;
-    flex-direction: column;
-    border-left: 1px solid peachpuff;
-    margin: 8% 0 0 0;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid peachpuff;
+  margin: 8% 0 0 0;
   padding-left: 5%;
-font-size: 15px;
+  font-size: 15px;
 }
 cite{
-color: rgb(226, 181, 141);
-margin-top: 5%;
+  color: rgb(226, 181, 141);
+  margin-top: 5%;
 }
-.ingredients{margin: 5% 0 0 0;}
-.ingredients li{margin-bottom: 2%;
-    color: gray;
+.ingredients{
+  margin: 5% 0 0 0;}
+.ingredients li{
+  margin-bottom: 2%;
+  color: gray;
   font-size: 15px;
 }
 .completerecipe {
-display: flex;
-width: 66%;
-padding: 2% 0 2% 0;
-border-top: 1px solid gray;
-border-bottom: 1px solid gray;
+  display: flex;
+  width: 66%;
+  padding: 2% 0 2% 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
-.main-fullrecipe-img{width: 50%;}
-.main-fullrecipe-img img {width: 100%;
-border-radius: 30px;
+.main-fullrecipe-img{
+  width: 50%;
 }
-.recipeDate {display: flex;
-font-size: 14px;
+.main-fullrecipe-img img {
+  width: 100%;
+  border-radius: 30px;
 }
-.recipeinfo{display: flex;
-flex-direction: column;
-font-size: 12px;
+.recipeDate {
+  display: flex;
+  font-size: 14px;
 }
-.reactions li {list-style: none;
+.recipeinfo{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
 }
-.reactions{display: flex;
+.reactions li {
+  list-style: none;
 }
-.recipe-full-info {display: flex;
-flex-direction: column;
-margin-left: 5%;
-width: 50%;
+.reactions{
+  display: flex;
+}
+.recipe-full-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 50%;
 }
 /**FOOTER**/
-.socialmedia{display: flex;
+.socialmedia{
+  display: flex;
   justify-content: space-between;
   padding: 5% 0 2% 0;
   border-bottom: 1px solid gray;
 }
-
 .socialmedia li a span{
   font-size: 12px;
   color: gray;
@@ -374,14 +414,28 @@ width: 50%;
 }
 /**menos420 550 800enAdelante**/
 @media (max-width: 800px){
-.carrusel {flex-wrap: wrap;}
+.carrusel {
+  flex-wrap: wrap;
+}
 .carruselImage.pancakes,.carruselImage.nutcake,.textoSobre{display: none;}
-.completerecipe, .videodiv {width: 100%}
-.tituloLogo {font-size: 40px;}
-.list li a {font-size: 15px;}
-.aboutme-box {width: 100%;}
-.titulo-p,.aboutme-p,.aboutme-a{width: 50%;}
-.completerecipe {border: ;}
+.completerecipe, .videodiv {
+  width: 100%;
+}
+.tituloLogo {
+  font-size: 40px;
+}
+.list li a {
+  font-size: 15px;
+}
+.aboutme-box {
+  width: 100%;
+}
+.titulo-p,.aboutme-p,.aboutme-a{
+  width: 50%;
+}
+.completerecipe {
+  border: ;
+}
 .platos .desplegable{
   position: absolute;
   top:46px;
@@ -389,257 +443,234 @@ width: 50%;
 .fulltxt{
   display:block;
   margin:0;
-   }
-    
-     .position-ul{
-      width: 80%;
-      padding-left:0;
-      font-size: 13px;
-    }
-    .position-ul a{
-      font-size: 13px;
-    }
-  
-  .position-ul li{
-    float:left;
-  }
-  
-  
-    div.fullrecipe.container2{
-      width:80%;
-      margin-right:10%;
-    }
-  
-    img.granolarecipe{
-      width: 118%;
-    }
-  
-   .main-recipe-social{
-     width:80%;
-     margin-right:0;
-     margin-left:0;
-    display:inline;
-   }
-    .recipe-media{
-     display:flex;
-     margin:30px auto 0 auto;
-     justify-content: space-evenly;
-   }
-    .recipe-media a{
-     line-height: 30px;
-    margin-right:30px;
-    border-radius: 50%;
-    }
-   .fullrecipe{
-    display:inline;
-  }
+}
+.position-ul{
+  width: 80%;
+  padding-left:0;
+  font-size: 13px;
+}
+.position-ul a{
+  font-size: 13px;
+}
+.position-ul li{
+  float:left;
+}
+div.fullrecipe.container2{
+  width:80%;
+  margin-right:10%;
+}
+img.granolarecipe{
+  width: 118%;
+}
+.main-recipe-social{
+  width:80%;
+  margin-right:0;
+  margin-left:0;
+  display:inline;
+}
+.recipe-media{
+  display:flex;
+  margin:30px auto 0 auto;
+  justify-content: space-evenly;
+}
+.recipe-media a{
+  line-height: 30px;
+  margin-right:30px;
+  border-radius: 50%;
+}
+.fullrecipe{
+  display:inline;
+}
 }
  @media (max-width: 550px){
-.recipe-buttons{display: block;}
-.recipe-item{width: 100%;
-  margin-bottom: 2%;}
-  .socialmedia li span {font-size: 25px;}
-  .platos .desplegable{
-    position: absolute;
-    top:64px;
-  }
-  .menu{
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  nav.menu{
-    text-align: center;
-  }
-  .menu .menuResponsive{
-    display:initial;
-   font-weight: bold;
-   
-  }
-  
-  .menu .menuResponsive a{
-  color: black;
-  text-decoration: none;
-  }
-  
-  
-  
-  .menu .desplegable{
-    display:none;
-  }
-  
-  .menu .list{
-    display:flex;
-    flex-direction:column;
-    display:none;
-  }
-  .fulltxt{
-    display:block;
-    margin:0;
-     }
-      
-       .position-ul{
-        width: 80%;
-        padding-left:0;
-        font-size: 13px;
-      }
-      .position-ul a{
-        font-size: 13px;
-      }
-    
-    .position-ul li{
-      float:left;
-    }
-    
-    
-      div.fullrecipe.container2{
-        width:80%;
-        margin-right:10%;
-      }
-    
-      img.granolarecipe{
-        width: 118%;
-      }
-    
-     .main-recipe-social{
-       width:80%;
-       margin-right:0;
-       margin-left:0;
-      display:inline;
-     }
-      .recipe-media{
-       display:flex;
-       margin:30px auto 0 auto;
-       justify-content: space-evenly;
-     }
-      .recipe-media a{
-       line-height: 30px;
-      margin-right:30px;
-      border-radius: 50%;
-      }
-     .fullrecipe{
-      display:inline;
-    }
-     
-.socialname {
-  display: none;
-}
-
-}
- @media (max-width: 420px)
-{.tituloLogo {font-size: 35px;}
-.granola,.chococookie,.main-fullrecipe-img{display: none;}
-.oreo{width: 100%;}
-.videodiv{display: none;}
-.titulo-p,.aboutme-p,.aboutme-a{width: 100%;}
-.completerecipe {justify-content: center;
-border: none;
-margin-top: 5%;}
-.recipeinfo {font-size: 16px;}
-.verMas{background-color: pink;
-  width: 50%;}
-.recipe-full-info{width: 80%;}
-  
-
-.header{
-  width:80%;
-}
-
-header.header, img.recipeheader{
+.recipe-buttons{
   display: block;
-    margin-left: auto;
-    margin-right: auto
 }
-
-.recipeheader{
-  width: 80%;
+.recipe-item{
+  width: 100%;
+  margin-bottom: 2%;
 }
-
+.socialmedia li span {
+  font-size: 25px;}
+  .platos .desplegable{
+  position: absolute;
+  top:64px;
+}
 .menu{
   padding: 10px;
   border-radius: 10px;
 }
-
 nav.menu{
   text-align: center;
 }
 .menu .menuResponsive{
   display:initial;
- font-weight: bold;
- 
+  font-weight: bold;
 }
-
 .menu .menuResponsive a{
-color: black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
-
-
-
 .menu .desplegable{
   display:none;
 }
-
 .menu .list{
   display:flex;
   flex-direction:column;
   display:none;
 }
-
-
-
-
-  .fulltxt{
-display:block;
-margin:0;
- }
-  
-   .position-ul{
-    width: 80%;
-    padding-left:0;
-    font-size: 13px;
-  }
-  .position-ul a{
-    font-size: 13px;
-  }
-
-
-
-.position-dif{
-  clear: both;
+.fulltxt{
+  display:block;
+  margin:0;
 }
-
-  div.fullrecipe.container2{
-    width:80%;
-    margin-right:10%;
-  }
-
-  img.granolarecipe{
-    width: 118%;
-  }
-
- .main-recipe-social{
-   width:80%;
-   margin-right:0;
-   margin-left:0;
+.position-ul{
+  width: 80%;
+  padding-left:0;
+  font-size: 13px;
+}
+.position-ul a{
+  font-size: 13px;
+}
+.position-ul li{
+  float:left;
+}
+div.fullrecipe.container2{
+  width:80%;
+  margin-right:10%;
+}
+img.granolarecipe{
+  width: 118%;
+}
+.main-recipe-social{
+  width:80%;
+  margin-right:0;
+  margin-left:0;
   display:inline;
- }
-  .recipe-media{
-   display:flex;
-   margin:30px auto 0 auto;
-   justify-content: space-evenly;
- }
-  .recipe-media a{
-   line-height: 30px;
+}
+.recipe-media{
+  display:flex;
+  margin:30px auto 0 auto;
+  justify-content: space-evenly;
+}
+.recipe-media a{
+  line-height: 30px;
   margin-right:30px;
   border-radius: 50%;
-  }
- .fullrecipe{
+}
+.fullrecipe{
   display:inline;
 }
- 
 .socialname {
   display: none;
 }
-
+}
+ @media (max-width: 420px){
+.tituloLogo {
+  font-size: 35px;
+}
+.granola,.chococookie,.main-fullrecipe-img{
+  display: none;
+}
+.oreo{
+  width: 100%;
+}
+.videodiv{
+  display: none;
+}
+.titulo-p,.aboutme-p,.aboutme-a{
+  width: 100%;
+}
+.completerecipe {
+  justify-content: center;
+  border: none;
+  margin-top: 5%;
+}
+.recipeinfo {
+  font-size: 16px;
+}
+.verMas{
+  background-color: pink;
+  width: 50%;
+}
+.recipe-full-info{
+  width: 80%;
+}
+.header{
+  width:80%;
+}
+header.header, img.recipeheader{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.recipeheader{
+  width: 80%;
+}
+.menu{
+  padding: 10px;
+  border-radius: 10px;
+}
+nav.menu{
+  text-align: center;
+}
+.menu .menuResponsive{
+  display:initial;
+  font-weight: bold;
+}
+.menu .menuResponsive a{
+  color: black;
+  text-decoration: none;
+}
+.menu .desplegable{
+  display:none;
+}
+.menu .list{
+  display:flex;
+  flex-direction:column;
+  display:none;
+}
+.fulltxt{
+  display:block;
+  margin:0;
+}
+.position-ul{
+  width: 80%;
+  padding-left:0;
+  font-size: 13px;
+}
+.position-ul a{
+  font-size: 13px;
+}
+.position-dif{
+  clear: both;
+}
+div.fullrecipe.container2{
+  width:80%;
+  margin-right:10%;
+}
+img.granolarecipe{
+  width: 118%;
+}
+.main-recipe-social{
+  width:80%;
+  margin-right:0;
+  margin-left:0;
+  display:inline;
+}
+.recipe-media{
+  display:flex;
+  margin:30px auto 0 auto;
+  justify-content: space-evenly;
+}
+.recipe-media a{
+  line-height: 30px;
+  margin-right:30px;
+  border-radius: 50%;
+}
+.fullrecipe{
+  display:inline;
+}
+.socialname {
+  display: none;
+}
 }
