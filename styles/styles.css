@@ -78,7 +78,7 @@ nav li:hover > ul{
 }
 .textoSobre{
   position: absolute;
-  bottom: 0;
+  bottom: 0;/*con la propiedad bottom ya se acomoda correctamente*/
   left: 0;
   right: 0;
   background-color: rgba(240, 234, 234, 0.89);
@@ -305,14 +305,14 @@ li .position-li{
   color: gray;
 }
 .recipe-time-data p{
-  display: block;
-  float: left;
+  display: block;/*las etiquetas <p> son elementos en bloque por defecto*/
+  float: left;/*esta propiedad no es necesaria porque al elemento padre se le asignó display flex*/
   font-size: 12px;
   line-height: 14px;
   margin: 18px 0;
   padding-left:5px;
 }
-.recipe-time-data li{
+.recipe-time-data li{/*acá pasa lo mismo que en el p de ariba*/
   display: block;
   float:right;
   margin-left: 10px;
@@ -412,6 +412,9 @@ cite{
   text-decoration:none;
   list-style:none;
 }
+
+/*en las media queries solo se agregan nuevas propiedades o se modifican los valores a las propiedades ya asignadas.
+no se debe repetir el código*/
 /**menos420 550 800enAdelante**/
 @media (max-width: 800px){
   .carrusel {
